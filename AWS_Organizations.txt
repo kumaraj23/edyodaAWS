@@ -1,0 +1,10 @@
+AWS Organizations practicals
+Create an AWS account (you being the root user).
+Invite (through email or Account ID)another member.
+create an organizationatl unit
+move the member to that OU
+create and attach a deny policy. (prerequisite, the member has to have that as a fULL access policy: ex. s3 full acess)
+Now ask him/her to create S3 bucket.
+Verification: S3 creation will fail though the member has S3 full access (SCP will prevent him)
+
+Able to perform the above steps
