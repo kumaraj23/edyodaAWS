@@ -1,0 +1,11 @@
+AMAZON RDS Creation
+
+go to Singapore region
+Dont use "EasyCreate" - use only "Standard Create"
+Create an AMAZON RDS with t2.micro under the dbname myrds.
+port number : 3306
+create an instance and connect to this RDS.
+through the instance connect to the db and create a table and input some field values to the table.
+After Db is created and running, try to change the vpc, and subnet ▶︎ see if you can modify
+
+Followed the steps and able to create the RDS
