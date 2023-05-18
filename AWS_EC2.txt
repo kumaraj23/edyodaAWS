@@ -1,0 +1,9 @@
+Followed all steps mentioned in session for EC2 instance creation through IAM user..
+And I understand the concepts.
+
+Create an IAM user (Adminuser) with EC2 full Access.
+The Permission must come from Group.(admingroup)
+login through that user (adminuser) and create an EC2 instance.
+Leave everything as default. in EBS storage leave "Delete on Termination" checked. (dont uncheck)
+Create instance. and try to delete the instance (Terminate)
+See if the underlying volume is also deleted (EBS volume)
